@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<style>
+			.monospace {
+				font-family: monospace;
+			}
+
+      input {
+        width: 120px;
+      }
+		</style>
+    <title>Speedrun.com WR data</title>
+	</head>
+	<body>
+		<div id="root">
+      <div class="input-container">
+        <label>Game:</label>
+        <input id="game">
+      </div>
+      <div class="input-container">
+        <label>Category:</label>
+        <input id="category">
+      </div>
+      <button id="update">Update</button>
+      <p id="result"></p>
+    </div>
+		<script type="module" src="./panel.ts"></script>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "object",
+	"properties": {
+		"gameName": {
+			"type": "string"
+		},
+		"categoryName": {
+			"type": "string"
+		},
+		"completeTime": {
+			"type": "string"
+		}
+	},
+	"additionalProperties": false,
+	"required": ["gameName", "categoryName"],
+	"default": {
+		"gameName": "smw",
+		"categoryName": "96_exit"
+	}
+}
