@@ -5,7 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface SpeedruncomReplicant {
+export interface Speedruncom {
 	gameName: string;
 	categoryName: string;
 	completeTime?: string;
